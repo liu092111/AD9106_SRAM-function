@@ -57,6 +57,11 @@ To target the AD9102, uncomment `#define DEV_AD9102` in `config.h`.
 | `config.h` | Device selection and example register values, from ADI under Apache-2.0 |
 | `teensy_main/teensy_main.ino` | Serial-menu demo |
 
+## Part of
+
+This is one of the drivers for [piezo-motor-visual-servo](https://github.com/liu092111/piezo-motor-visual-servo), a camera-in-the-loop controller for a piezoelectric ultrasonic motor.
+
+
 </details>
 
 <details>
@@ -109,5 +114,9 @@ flowchart LR
 | `teensy_ad910x.h/.cpp` | 驅動程式：SPI 讀寫、暫存器重設、SRAM 更新、開始／停止 |
 | `config.h` | 裝置選擇與範例暫存器值，來自 ADI 官方（Apache-2.0） |
 | `teensy_main/teensy_main.ino` | 以序列埠選單操作的範例程式 |
+
+## 所屬專案
+
+這是 [piezo-motor-visual-servo](https://github.com/liu092111/piezo-motor-visual-servo) 的驅動程式之一。該專案以攝影機閉迴路控制壓電超音波馬達。
 
 </details>
